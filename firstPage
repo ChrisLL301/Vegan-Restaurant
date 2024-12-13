@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  body {
+  background-color: rgb(200,240,160);
+}
 
+h1 {
+  color:powder-blue;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+skibidi {
+  font-family:Arial ;
+  font-size:60px;
+  color:green;
+}
+
+</style>
+<h1>This is a heading lols</h1>
+<p>Hello I like cheese</p>
+<p>I wonder what kind of difference the CSS will make</p>
+<h2>this is another heading</h2>
+<h3> anoooother heading</h3>
+<skibidi >test run</skibidi>
+<skibidi >test run2</skibidi>
+<p>pause</p>
+<skibidi style = "text-align:center;">test run 3</skibidi>
+<p>cheese</p>
+<p>cheese</p>
+
+
+  </body>
+</html>
