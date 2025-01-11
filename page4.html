@@ -7,12 +7,54 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .lHeight {
+            line-height: 130%;
+        }
+        .block {
+            background-color: black;
+            width: 100%;
+            block-size: 300px;
+        }
+        ul.navi {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        li.left {
+            float: left;
+        }
+        li.blocking {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 40x 20px;
+            text-decoration: none;   
+        }
+        li.blocking :hover:not(.active) {
+            background-color: #111;
+        }
+        .active {
+            background-color: #04AA6D;
+        }
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Us</title>
+    <title>Home</title>
 </head>
 <body style="background-color:rgb(96, 224, 109);">
+    <ul class="navi">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="page2.html">Menu page</a></li>
+        <li><a href="page3.html">Locations</a></li>
+        <li><a class="active" href="page4.html">About Us</a></li>
+        <li><a href="page5.html">Contact Us</a></li>
+        <li><a href="page6.html">Citations</a></li>
+    </ul>
     <h1>About the Restaurant, our History, and our People!!</h1>
     <a href='page1.html'>Home Page</a>
      <br><br>
