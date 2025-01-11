@@ -15,13 +15,41 @@
             width: 100%;
             block-size: 300px;
         }
-        .
+        ul.navi {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        li.left {
+            float: left;
+        }
+        li.blocking {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;   
+        }
+        li.blocking :hover:not(.active) {
+            background-color: #111;
+        }
+        .active {
+            background-color: #04AA6D;
+        }
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
 </head>
 <body style="background-color:rgb(96, 224, 109);">
+    <ul class="navi">
+        <li><a class="active" href="index.html">Home Page</a></li>
+    </ul>
     <div class="block">
     <div class="lHeight">
         <h1 style="text-align:center;font-family:verdana;font-size:450%;color:white;">Welcome To Veggie Bowl !!</h1>
