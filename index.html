@@ -2,6 +2,20 @@
 <html>
 <head>
     <style>
+              .imageanim {
+        display:block;
+        position:relative;
+        animation-name:dropdown;
+        animation-duration:4.5s;
+        animation-fill-mode: forwards;
+        
+      }
+      
+      @keyframes dropdown {
+        0% {top:-150px}
+        100%{top:250px;}
+        
+      }
         .center {
             display: block;
             margin-left: auto;
@@ -10,8 +24,14 @@
         .lHeight {
             line-height: 130%;
         }
-        .image-blocks {
+        .image-block1 {
             background: url(VeggieBowl1.png) no-repeat center;
+            background-size: cover;
+            height: 875px;
+            
+        }
+          .image-block2 {
+            background: url(VeggieBowl2.png) no-repeat center;
             background-size: cover;
             height: 875px;
             
@@ -57,8 +77,12 @@
         <li><a class="navig" href="page6.html">Citations</a></li>
         <li style="font-size:45px;text-align:center;color:rgb(186, 255, 161);text-font:georgia;padding: 8px;">Veggie Bowl</li>
     </ul>
+    <img style="margin-left:300px;margin-right:auto;" class="imageanim" src="CanvaVegBowl.png">
+    <div class="
         <br><br><br>
-    <div class="image-blocks">
+    <div class="image-block1">
+    </div>
+    <div class="image-block1">
     </div>
         <br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
