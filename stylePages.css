@@ -135,6 +135,11 @@
         }
         .active {
             background-color: #065; 
-        }
+	}
+	p.newStyle {
+	text-font:montserrat;
+	color:blue;
+
+	}
    
    
