@@ -69,7 +69,8 @@
         }
           .image-block2 {
             background: url(vegBowl2.png) no-repeat center;
-            background-size: 100% 1100px;  
+            background-size: 100% 1100px;
+	    height:1100px;
            
             
         }
@@ -110,8 +111,10 @@
             
         }
 	.image-block9 {
+	    border-color:black;
+	    border-width:5px;
             background: url(vegBowl9.png) no-repeat center;
-            background-size: 100% 1100px;  
+            background-size: 80% 1100px;  
             height: 1100px;
             
         }
