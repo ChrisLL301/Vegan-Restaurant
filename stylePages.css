@@ -111,6 +111,7 @@
             
         }
 	.image-block9 {
+	    border-style:solid;
 	    border-color:black;
 	    border-width:5px;
             background: url(vegBowl9.png) no-repeat center;
