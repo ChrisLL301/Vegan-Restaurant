@@ -41,15 +41,15 @@
         height:375px;
         position:absolute;
         animation-name:dropdown;
-        animation-duration:7s;
+        animation-duration:8s;
         animation-fill-mode: both;
         animation-delay:2s;
         
       }
       
       @keyframes dropdown {
-        0% {left:-350px;opacity:1;}
-        66%{left:380px;opacity:0.8}
+        0% {left:-450px;opacity:1;}
+        72%{left:380px;opacity:0.8}
 	100%{left:400px;opacity:0;}
         
       }
