@@ -39,7 +39,7 @@
         display:block;
         width:600px;
         height:375px;
-        position:absolute;
+        position:static;
         animation-name:dropdown;
         animation-duration:4s;
         animation-fill-mode: forwards;
