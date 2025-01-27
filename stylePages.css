@@ -48,8 +48,8 @@
       }
       
       @keyframes dropdown {
-        0% {top:-250px}
-        100%{top:555px;}
+        0% {left:-250px}
+        100%{left:555px;}
         
       }
         .center {
