@@ -39,10 +39,10 @@
         display:block;
         width:600px;
         height:375px;
-        position:static;
+        position:absolute;
         animation-name:dropdown;
         animation-duration:4s;
-        animation-fill-mode: forwards;
+        animation-fill-mode: both;
         animation-delay:2s;
         
       }
