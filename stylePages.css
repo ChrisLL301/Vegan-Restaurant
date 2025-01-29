@@ -152,11 +152,22 @@
 	}
 
 .click-area {
+  opacity:0.5;
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 1750px;
+  top: 1650px;
   left: 5vw;
+  width: 170px;
+  height: 70px;
+}
+.click-area2 {
+  opacity:0.5;
+  background-color:black;
+  display: inline-block;
+  position: absolute;
+  top: 1650px;
+  right: 5vw;
   width: 170px;
   height: 70px;
 }
