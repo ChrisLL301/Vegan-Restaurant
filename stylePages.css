@@ -155,8 +155,8 @@
   opacity:0.5;
   background-color:black;
   display: inline-block;
-  position: fixed;
-  top: 60%;
+  position: relative;
+  top: 260%;
   left: 5vw;
   width: 16vw;
   height: 8vh;
