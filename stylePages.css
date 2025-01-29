@@ -156,7 +156,7 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 500%;
+  top: 300%;
   left: 5vw;
   width: 20vw;
   height: 5vh;
@@ -166,7 +166,7 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 500%;
+  top: 300%;
   right: 5vw;
   width: 30vw;
   height: 5vh;
