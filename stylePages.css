@@ -1,10 +1,10 @@
  div.blockT1 {
           display: block;
-          padding:12vh ;
+          padding:4vh ;
           background-color:black;
           color:white;
           text-align: center;
-          font-size:1vh;
+          font-size:2vh;
       
         }
         div.blockT2 {
