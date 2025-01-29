@@ -156,19 +156,19 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 200vh;
+  top: 210vh;
   left: 5vw;
-  width: 170px;
-  height: 70px;
+  width: 20vw;
+  height: 5vh;
 }
 .click-area2 {
   opacity:0.5;
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 200vh;
+  top: 210vh;
   right: 5vw;
-  width: 250px;
-  height: 70px;
+  width: 30vw;
+  height: 5vh;
 }
    
