@@ -165,10 +165,10 @@
   opacity:0.5;
   background-color:black;
   display: inline-block;
-  position: absolute;
-  top: 260%;
+  position: relative;
+  top: 12vw;
   right: 5vw;
   width: 24vw;
-  height: 8vh;
+  height: 18vh;
 }
    
