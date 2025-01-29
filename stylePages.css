@@ -156,7 +156,7 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 1700px;
+  top: 200vh;
   left: 5vw;
   width: 170px;
   height: 70px;
@@ -166,9 +166,9 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 1700px;
+  top: 200vh;
   right: 5vw;
-  width: 170px;
+  width: 250px;
   height: 70px;
 }
    
