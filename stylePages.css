@@ -150,5 +150,14 @@
 	color:blue;
 
 	}
-   
+
+.click-area {
+  background-color:black;
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 10vw;
+  width: 100px;
+  height: 600px;
+}
    
