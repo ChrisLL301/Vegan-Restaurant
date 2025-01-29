@@ -156,9 +156,9 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 18in;
+  top: 260%;
   left: 5vw;
-  width: 20vw;
+  width: 16vw;
   height: 5vh;
 }
 .click-area2 {
@@ -166,9 +166,9 @@
   background-color:black;
   display: inline-block;
   position: absolute;
-  top: 240%;
+  top: 260%;
   right: 5vw;
-  width: 30vw;
-  height: 5vh;
+  width: 24vw;
+  height: 6.5vh;
 }
    
