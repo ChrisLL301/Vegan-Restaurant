@@ -48,8 +48,8 @@
       }
       
       @keyframes dropdown {
-        0% {left:-450px;opacity:1;}
-        67%{left:350px;opacity:0.7}
+        0% {left:-550px;opacity:1;}
+        72%{left:350px;opacity:0.8}
 	100%{left:450px;opacity:0;}
         
       }
