@@ -152,7 +152,7 @@
 	}
 
 .click-area {
-  opacity:0.5;
+  opacity:0;
   background-color:black;
   display: inline-block;
   position: relative;
