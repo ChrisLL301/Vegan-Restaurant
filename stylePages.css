@@ -37,8 +37,8 @@
 	}
               .imageanim {
         display:block;
-        width:600px;
-        height:375px;
+        width:6vw;
+        height:3.75vh;
         position:absolute;
         animation-name:dropdown;
         animation-duration:8s;
