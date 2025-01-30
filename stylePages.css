@@ -177,7 +177,7 @@
 }
 
 .click-area3 {
-  opacity:0;
+  opacity:0.5;
   background-color:black;
   display: inline-block;
   position: relative;
