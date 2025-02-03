@@ -206,7 +206,7 @@
   background-color:black;
   display: inline-block;
   position: relative;
-  top:81vh;
+  top:78vh;
   left: -15vw;
   width: 14vw;
   height: 10vh;
@@ -217,8 +217,8 @@
   background-color:black;
   display: inline-block;
   position: relative;
-  top:103vh;
-  left: -25vw;
+  top:97vh;
+  left: 0vw;
   width: 14vw;
   height: 10vh;
 }
@@ -228,8 +228,8 @@
   background-color:black;
   display: inline-block;
   position: relative;
-  top:125vh;
-  left: -17vw;
+  top:116vh;
+  left: -25vw;
   width: 14vw;
   height: 10vh;
 }
