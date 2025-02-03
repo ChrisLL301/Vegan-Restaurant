@@ -134,6 +134,7 @@
         }
         .navig {
             display: block;
+	    text-size:3vw;
             color: white;
             text-align: center;
             padding: 4vw 4vh;
