@@ -134,10 +134,10 @@
         }
         .navig {
             display: block;
-	    text-size:60px;
+	    text-size:1.5vw;
             color: white;
             text-align: center;
-            padding: 3vw 4vh;
+            padding: 2.5vw 5vh;
             text-decoration: none;   
         }
         .navig :hover:not(.active) {
