@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+  clicks=0
+function myFunction() {
+  document.getElementById("demo").innerHTML = clicks;
+  clicks+=1
+}
+  
+</script>
     <link rel="stylesheet" href="stylePages.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +21,7 @@
         <li><a class="navig" href="page3.html">About Us</a></li>
         <li><a class="navig" href="page4.html">Contact Us</a></li>
         <li><a class="navig" href="page5.html">Citations</a></li>
+        <li><a id="demo" onclick="myFunction()" class="navig">0</a></li>
         <li style="font-size:45px;text-align:center;color:rgb(186, 255, 161);text-font:georgia;padding: 8px;">Veggie Bowl</li>
     </ul>
     <div class="image-block3"></div>
