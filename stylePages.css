@@ -45,8 +45,8 @@
 	}
               .imageanim {
         display:block;
-        width:36vw;
-        height:45vh;
+        width:45vw;
+        height:54vh;
         position:absolute;
         animation-name:dropdown;
         animation-duration:8s;
@@ -57,8 +57,8 @@
       
       @keyframes dropdown {
         0% {left:-30vw;opacity:1;}
-        72%{left:18vw;opacity:0.8}
-	100%{left:24vw;opacity:0;}
+        72%{left:22vw;opacity:0.8}
+	100%{left:28vw;opacity:0;}
         
       }
         .center {
