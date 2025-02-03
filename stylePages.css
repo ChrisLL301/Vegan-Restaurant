@@ -48,9 +48,9 @@
       }
       
       @keyframes dropdown {
-        0% {left:-20vw;opacity:1;}
-        72%{left:16vw;opacity:0.8}
-	100%{left:22vw;opacity:0;}
+        0% {left:-30vw;opacity:1;}
+        72%{left:18vw;opacity:0.8}
+	100%{left:24vw;opacity:0;}
         
       }
         .center {
