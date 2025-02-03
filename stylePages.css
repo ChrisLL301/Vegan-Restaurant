@@ -136,7 +136,7 @@
             display: block;
             color: white;
             text-align: center;
-            padding: 30px 30px;
+            padding: 60px 30px;
             text-decoration: none;   
         }
         .navig :hover:not(.active) {
