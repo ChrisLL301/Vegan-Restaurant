@@ -237,7 +237,7 @@
 /* This Below is the second Vers of CLick Area */
 
 .click-areaB1 {
-  opacity:0.;
+  opacity:0;
   background-color:black;
   display: inline-block;
   position: relative;
