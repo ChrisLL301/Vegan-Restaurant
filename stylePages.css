@@ -207,7 +207,7 @@
   display: inline-block;
   position: relative;
   top:81vh;
-  left: 0vw;
+  left: -15vw;
   width: 14vw;
   height: 10vh;
 }
@@ -218,7 +218,7 @@
   display: inline-block;
   position: relative;
   top:103vh;
-  left: 54vw;
+  left: -25vw;
   width: 14vw;
   height: 10vh;
 }
@@ -229,7 +229,7 @@
   display: inline-block;
   position: relative;
   top:125vh;
-  left: 13vw;
+  left: -17vw;
   width: 14vw;
   height: 10vh;
 }
