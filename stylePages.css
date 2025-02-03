@@ -201,6 +201,40 @@
   height: 10vh;
 }
 
+.click-area5 {
+  opacity:0.5;
+  background-color:black;
+  display: inline-block;
+  position: relative;
+  top:81vh;
+  left: 13vw;
+  width: 14vw;
+  height: 10vh;
+}
+
+.click-area6 {
+  opacity:0.5;
+  background-color:black;
+  display: inline-block;
+  position: relative;
+  top:103vh;
+  left: 54vw;
+  width: 14vw;
+  height: 10vh;
+}
+
+.click-area7 {
+  opacity:0.5;
+  background-color:black;
+  display: inline-block;
+  position: relative;
+  top:125vh;
+  left: 13vw;
+  width: 14vw;
+  height: 10vh;
+}
+
+
 
 
 
