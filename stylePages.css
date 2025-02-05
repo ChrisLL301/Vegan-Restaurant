@@ -57,12 +57,12 @@
       
       @keyframes dropdown {
         0% {left:-30vw;opacity:1;}
-	68% {left:20vw;opacity:1;transform: rotate(-20deg);
-        72%{left:22vw;opacity:0.8;transform: rotate(20deg)}
-	76%{left:23vw;opacity:0.8;transform: rotate(-20deg)}
-	80%{left:24vw;opacity:0.8;transform: rotate(20deg)}
-	85%{left:25vw;opacity:0.8;transform: rotate(-20deg)}
-	92%{left:27vw;opacity:0.8;transform: rotate(20deg)}
+	68% {left:20vw;opacity:1;transform: rotate(-20deg);}
+        72%{left:22vw;opacity:0.8;transform: rotate(20deg);}
+	76%{left:23vw;opacity:0.8;transform: rotate(-20deg);}
+	80%{left:24vw;opacity:0.8;transform: rotate(20deg);}
+	85%{left:25vw;opacity:0.8;transform: rotate(-20deg);}
+	92%{left:27vw;opacity:0.8;transform: rotate(20deg);}
 	100%{left:28vw;opacity:0;}
         
       }
