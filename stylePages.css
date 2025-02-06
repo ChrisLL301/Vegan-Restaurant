@@ -57,7 +57,7 @@
       
       @keyframes dropdown {
         0% {left:-30vw;opacity:1;}
-	34% {left: -5vw;opacity:1;}
+	34% {left: -5vw;opacity:1;transfrom: rotate(0deg)}
 	68% {left:20vw;opacity:1;transform: rotate(-15deg);}
         72% {left:22vw;opacity:0.9;transform: rotate(15deg);}
 	76% {left:23vw;opacity:0.9;transform: rotate(-15deg);}
