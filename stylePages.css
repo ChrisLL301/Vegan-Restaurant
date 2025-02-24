@@ -320,14 +320,29 @@
   height: 10vh;
 }
 
-.aboretoFont {
-	font-family: "aboreto", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+.montFont {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:3.5vh;
 }
 
+.aborFont {
+  font-family: aboreto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:8vh;
+}
 
-
+.ultBlock {
+  display: block;
+  padding:35px ;
+  background-color:white;
+  color:black;
+  text-align: center;
+  width:88%;
+  
+}
 
 /* cheese */
    
