@@ -369,8 +369,8 @@
 .rotateVeg { 
     animation: rotateScale 5s linear infinite; 
     z-index: 1;
-    width: 10vw
-    height: 10vh
+    width: 10vw;
+    height: 10vh;
 } 
 
 /* cheese */
