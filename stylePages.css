@@ -372,7 +372,8 @@
 } 
  
 .rotateVeg { 
-    animation: rotateScale 5s linear infinite inline-block; 
+    animation: rotateScale 5s linear infinite; 
+    display:inline-block;
     z-index: 1;
     width: 10vw;
     height: 10vh;
