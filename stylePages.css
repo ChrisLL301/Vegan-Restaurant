@@ -50,7 +50,7 @@
 	animation-timing-function: linear;
         position:absolute;
         animation-name:dropdown;
-        animation-duration:8s;
+        animation-duration:6.5s;
         animation-fill-mode: forwards;
         animation-delay:2s;
         
@@ -59,12 +59,12 @@
       @keyframes dropdown {
         0% {left:-30vw;opacity:1;}
 	34% {left: -5vw;opacity:1;transfrom: rotate(0deg)}
-	68% {left:20vw;opacity:1;transform: rotate(-10deg);}
-        72% {left:22vw;opacity:1;transform: rotate(10deg);}
-	76% {left:23vw;opacity:1;transform: rotate(-10deg);}
-	80% {left:24vw;opacity:1;transform: rotate(10deg);}
-	85% {left:25vw;opacity:1;transform: rotate(-10deg);}
-	92% {left:27vw;opacity:1;transform: rotate(10deg);}
+	68% {left:20vw;opacity:1;transform: rotate(-20deg);}
+        72% {left:22vw;opacity:1;transform: rotate(15deg);}
+	76% {left:23vw;opacity:1;transform: rotate(-14deg);}
+	80% {left:24vw;opacity:1;transform: rotate(13deg);}
+	85% {left:25vw;opacity:1;transform: rotate(-12deg);}
+	92% {left:27vw;opacity:1;transform: rotate(11deg);}
 	100% {left:28vw;opacity:1;}
         
       }
