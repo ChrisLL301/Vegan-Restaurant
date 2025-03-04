@@ -373,6 +373,7 @@
  
 .rotateVeg { 
     animation: rotateScale 5s linear infinite; 
+    position: relative;
     display:inline-block;
     z-index: 1;
     width: 10vw;
