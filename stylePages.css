@@ -55,6 +55,14 @@
         animation-delay:2s;
         
       }
+
+@media (max-width: 600px){
+              .imageanim {
+        display:block;
+	z-index: 1;
+        width:45vw;
+        height:30vh;
+}
       
       @keyframes dropdown {
         0% {left:-10vw;opacity:1;}
