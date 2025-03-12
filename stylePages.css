@@ -349,6 +349,12 @@
   font-size:8vh;
 }
 
+.brioFont {
+font-family: "brioso-pro", serif;
+font-weight: 300;
+font-style: italic;
+}
+
 .ultBlock {
   display: block;
   padding:0px ;
