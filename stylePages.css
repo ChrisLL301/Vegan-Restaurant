@@ -355,6 +355,12 @@ font-weight: 300;
 font-style: italic;
 }
 
+.opsaFont{
+font-family: "open-sans", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
 .ultBlock {
   display: block;
   padding:0px ;
