@@ -441,7 +441,7 @@ font-style: normal;
   
 }
 
-@media (max-width: 800px)v  {
+@media (max-width: 800px)  {
 .montFont {
   font-family: montserrat, sans-serif;
   font-weight: 200;
