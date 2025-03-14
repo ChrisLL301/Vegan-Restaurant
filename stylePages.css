@@ -242,6 +242,21 @@
 
 	}
 
+@media (max-width:800px) {
+
+        .navig {
+            display: block;
+	    font-size:1vw;
+            color: white;
+            text-align: center;
+            padding: 0.5vw 4vh;
+            text-decoration: none; 
+	    font-family: "open-sans", sans-serif;
+	    font-weight: 300;
+	    font-style: normal;
+
+}
+
 .click-area {
   opacity:0;
   background-color:black;
