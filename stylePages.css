@@ -63,6 +63,13 @@
         width:60vw;
         height:21vh;
       }
+
+        .image-block1 {
+            background: url(vegBowl1NW.png) no-repeat center;
+              background-size: 100% 30vh;  
+            height: 100vh;
+            
+        }
 }
       
       @keyframes dropdown {
