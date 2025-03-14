@@ -63,7 +63,7 @@
 @media (max-width: 800px){
 	
               .imageanim {
-	margin-top:20vh;
+	margin-top:18vh;
 	margin-left:-34vw;
 	margin-right:auto;
         display:block;
@@ -453,7 +453,7 @@ font-style: normal;
   font-family: montserrat, sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size:2vh;
+  font-size:2.25vh;
   line-height:1;
 }
 
