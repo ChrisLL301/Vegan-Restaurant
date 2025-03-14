@@ -44,6 +44,9 @@
 	opacity:0;
 	}
               .imageanim {
+	margin-top:34vh;
+	margin-left:-30vw;
+	margin-right:auto;
         display:block;
 	z-index: 1;
         width:45vw;
@@ -58,11 +61,15 @@
       }
 
 @media (max-width: 800px){
+	
               .imageanim {
+	margin-top:15vh;
+	margin-left:-40vw;
+	margin-right:auto;
         display:block;
 	z-index: 1;
-        width:60vw;
-        height:21vh;
+        width:30vw;
+        height:10vh;
       }
 
 }
