@@ -36,11 +36,12 @@
 	}
 
 	.blockT5 {
-	padding: 6.25vh;
+	padding: 5.5vh;
 	background-color:pink;
 	width:100%
 	margin-left:auto;
 	margin-right:auto:
+	opacity:0;
 	}
               .imageanim {
         display:block;
