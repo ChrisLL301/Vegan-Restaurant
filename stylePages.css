@@ -96,16 +96,6 @@
             
         }
 
-@media (max-width: 800px) {
-
-.image-block1 {
-            background: url(vegBowl1NW.png) no-repeat center;
-            background-size: 100% 30vh;  
-            height: 30vh;
-            
-        }
-
-}
           .image-block2 {
             background: url(vegBowl2.png) no-repeat center;
             background-size: 100% 120vh;
@@ -149,6 +139,61 @@
             height: 80vh;
             
         }
+
+@media (max-width: 800px) {
+
+.image-block1 {
+            background: url(vegBowl1NW.png) no-repeat center;
+            background-size: 100% 30vh;  
+            height: 30vh;
+            
+        }
+
+          .image-block2 {
+            background: url(vegBowl2.png) no-repeat center;
+            background-size: 100% 36vh;
+	    height:36vh;
+           
+            
+        }
+.image-block3 {
+            background: url(vegBowl3.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+.image-block4 {
+            background: url(vegBowl4.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+	.image-block6 {
+            background: url(vegBowl6.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+	.image-block7 {
+            background: url(vegBowl7.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+	.image-block8 {
+            background: url(vegBowl8.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+	.image-block9 {
+            background: url(vegBowl9NW.png) no-repeat center;
+            background-size: 100% 24vh;  
+            height: 24vh;
+            
+        }
+
+}
 
 
 
