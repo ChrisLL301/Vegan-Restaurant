@@ -441,6 +441,24 @@ font-style: normal;
   
 }
 
+@media (max-width: 800px)v  {
+.montFont {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:2vh;
+  line-height:1;
+}
+
+.aborFont {
+  font-family: aboreto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:4vh;
+}
+
+}
+
 @keyframes rotateScale { 
     0% { 
         transform: rotate(0deg); 
