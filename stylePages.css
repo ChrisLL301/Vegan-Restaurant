@@ -503,5 +503,17 @@ font-style: normal;
     height: 24.5vh;
 } 
 
+@media (max-width:800px) {
+
+	.rotateVeg { 
+    animation: rotateScale 5s linear infinite; 
+    position: relative;
+    display:inline-block;
+    z-index: 1;
+    width: 16vw;
+    height: 10vh;
+} 
+}
+
 /* cheese */
    
