@@ -527,6 +527,18 @@ font-style: normal;
     height: 24.5vh;
 } 
 
+.tomaPos{
+left:39vw;
+top:110vh
+
+}
+
+.cucuPos{
+left:17.5vw;
+top:60vh
+
+}
+
 @media (max-width:800px) {
 
 	.rotateVeg { 
@@ -534,9 +546,22 @@ font-style: normal;
     position: relative;
     display:inline-block;
     z-index: 1;
-    width: 18vw;
+    width: 20vw;
     height: 10vh;
 } 
+
+.tomaPos{
+left:45vw;
+top:110vh
+
+}
+
+.cucuPos{
+left:23.5vw;
+top:60vh
+
+}
+	
 }
 
 /* cheese */
