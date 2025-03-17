@@ -527,6 +527,8 @@ font-style: normal;
     height: 24.5vh;
 } 
 
+
+
 .tomaPos{
 left:39vw;
 top:110vh
@@ -563,6 +565,27 @@ top:60vh
 }
 	
 }
+
+@keyframes rotateDrinks { 
+    0% { 
+        transform: rotate(0deg); 
+    } 
+    50% { 
+        transform: rotate(60deg); 
+    } 
+    100% { 
+        transform: rotate(120deg); 
+    } 
+} 
+
+.rotateDrink { 
+    animation: rotateDrinks 2s ease infinite; 
+    position: relative;
+    display:inline-block;
+    z-index: 1;
+    width: 21vw;
+    height: 24.5vh;
+} 
 
 /* cheese */
    
