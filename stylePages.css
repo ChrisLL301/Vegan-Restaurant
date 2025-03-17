@@ -585,15 +585,15 @@ top:60vh
         transform: rotate(0deg); 
     } 
     50% { 
-        transform: rotate(60deg); 
+        transform: rotate(120deg); 
     } 
     100% { 
-        transform: rotate(120deg); 
+        transform: rotate(0deg); 
     } 
 } 
 
 .rotateDrink { 
-    animation: rotateDrinks 2s ease infinite; 
+    animation: rotateDrinks 4s ease infinite; 
     position: relative;
     display:inline-block;
     z-index: 1;
