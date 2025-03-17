@@ -435,6 +435,14 @@
   line-height:1.5;
 }
 
+.montFont2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:4vh;
+  line-height:1;
+}
+
 .aborFont {
   font-family: aboreto, sans-serif;
   font-weight: 400;
@@ -470,6 +478,22 @@ font-style: normal;
   font-weight: 200;
   font-style: normal;
   font-size:2.25vh;
+  line-height:1;
+}
+
+.montFont1 {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:2vh;
+  line-height:1;
+}
+
+.montFont2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size:1.8vh;
   line-height:1;
 }
 
