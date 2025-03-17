@@ -148,6 +148,13 @@
             
         }
 
+	.image-block10 {
+            background: url(vegBowlDr.png) no-repeat center;
+            background-size: 100% 120vh;  
+            height: 120vh;
+            
+        }
+
 @media (max-width: 800px) {
 
 .image-block1 {
@@ -200,6 +207,13 @@
             height: 24vh;
             
         }
+		.image-block10 {
+            background: url(vegBowlDr.png) no-repeat center;
+            background-size: 100% 36vh;  
+            height: 36vh;
+            
+        }
+	
 
 }
 
