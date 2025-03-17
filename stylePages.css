@@ -546,18 +546,18 @@ top:60vh
     position: relative;
     display:inline-block;
     z-index: 1;
-    width: 20vw;
-    height: 10vh;
+    width: 22vw;
+    height: 19vh;
 } 
 
 .tomaPos{
-left:45vw;
+left:43vw;
 top:110vh
 
 }
 
 .cucuPos{
-left:23.5vw;
+left:21.5vw;
 top:60vh
 
 }
