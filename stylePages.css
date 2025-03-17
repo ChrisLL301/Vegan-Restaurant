@@ -601,5 +601,47 @@ top:60vh
     height: 24.5vh;
 } 
 
+.cokePos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+.waterPos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+.juicePos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+
+
+
+@media (max-width:800px):{
+.cokePos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+.waterPos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+.juicePos {
+left:00vw;
+top:00vh;
+width:00vw;
+height:00vh;
+}
+	
+}
 /* cheese */
    
