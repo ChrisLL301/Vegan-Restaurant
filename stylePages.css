@@ -624,21 +624,21 @@ height:28vh;
 
 .cokePos {
 left:2vw;
-top:35vh;
-width:32vw;
-height:50vh;
+top:5vh;
+width:30vw;
+height:18vh;
 }
 .waterPos {
-left:60vw;
-top:35vh;
-width:27vw;
-height:35vh;
+left:20vw;
+top:5vh;
+width:30vw;
+height:15vh;
 }
 .juicePos {
 left:10vw;
-top:120vh;
-width:27vw;
-height:40vh;
+top:40vh;
+width:35vw;
+height:15vh;
 }
 
 }
