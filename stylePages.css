@@ -600,6 +600,29 @@ top:60vh
 } 
 
 .cokePos {
+left:5vw;
+top:35vh;
+width:10vw;
+height:30vh;
+}
+.waterPos {
+left:35vw;
+top:35vh;
+width:13vw;
+height:30vh;
+}
+.juicePos {
+left:-15vw;
+top:120vh;
+width:15vw;
+height:30vh;
+}
+
+
+
+@media (max-width:800px):{
+
+.cokePos {
 left:2vw;
 top:35vh;
 width:32vw;
@@ -618,28 +641,6 @@ width:27vw;
 height:40vh;
 }
 
-
-
-@media (max-width:800px):{
-.cokePos {
-left:00vw;
-top:00vh;
-width:00vw;
-height:00vh;
-}
-.waterPos {
-left:00vw;
-top:00vh;
-width:00vw;
-height:00vh;
-}
-.juicePos {
-left:00vw;
-top:00vh;
-width:00vw;
-height:00vh;
-}
-	
 }
 /* cheese */
    
