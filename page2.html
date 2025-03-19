@@ -2,20 +2,25 @@
 <html>
 <head>
     <script>
+    clicks = 0
 function clickCounter1() {
   if (sessionStorage.clickcount) {
+      clicks = clicks + 1;
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 5;
   } else {
     sessionStorage.clickcount = 1;
     }
+  document.getElementById("itCa").innerHTML = "Total Clicks: " + clicks;
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
 }
 function clickCounter2() {
     if (sessionStorage.clickcount) {
+        clicks = clicks + 1;
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 10;
   } else {
     sessionStorage.clickcount = 1;
     }
+  document.getElementById("itCa").innerHTML = "Total Clicks: " + clicks;
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
   
 }
@@ -36,7 +41,7 @@ function clickCounter2() {
         <li><a class="navig" href="page4.html">Contact Us</a></li>
         <li><a class="navig" href="page5.html">Reference Page</a></li>
         <li><a class="navig" href="page6.html">Checkout</a></li>
-        <li><a id="demo" class="navig"></a></li>
+        <li><a id="itCa" class="navig"></a></li>
         <li style="font-size:2.85vw;text-align:center;color:rgb(203, 226, 168);padding: 3vh;" class="brioFont">Veggie Bowl</li>
     </ul>
     <div class="image-block3"></div>
