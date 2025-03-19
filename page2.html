@@ -2,11 +2,24 @@
 <html>
 <head>
     <script>
-  clicks=1
-function myFunction() {
-  document.getElementById("demo").innerHTML = "You have "+ clicks +" items in cart";
-  clicks+=1
+function clickCounter1() {
+  if (sessionStorage.clickcount) {
+    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 5;
+  } else {
+    sessionStorage.clickcount = 1;
+    }
+  document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items;
 }
+function clickCounter2() {
+    if (sessionStorage.clickcount) {
+    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 10;
+  } else {
+    sessionStorage.clickcount = 1;
+    }
+  document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items;
+  
+}
+
   
 </script>
     <link rel="stylesheet" href="https://use.typekit.net/yfq0mma.css">
@@ -45,8 +58,8 @@ function myFunction() {
 <div style="opacity:0;"class="blockT4"></div>
 
 
-    <div id="demo" onclick="myFunction()" class="click-area3"></div>
-    <div id="demo" onclick="myFunction()" class="click-area4"></div>
+    <div id="demo" onclick="clickCounter1()" class="click-area3"></div>
+    <div id="demo" onclick="clickCounter2()" class="click-area4"></div>
     <div id="demo" onclick="myFunction()" class="click-area5"></div>
     <div id="demo" onclick="myFunction()" class="click-area6"></div>
     <div id="demo" onclick="myFunction()" class="click-area7"></div>
