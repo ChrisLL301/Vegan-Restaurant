@@ -2,30 +2,39 @@
 <html>
 <head>
     <script>
-    clicks = 0
 function clickCounter1() {
   if (sessionStorage.clickcount) {
-      clicks = clicks + 1;
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 5;
   } else {
     sessionStorage.clickcount = 1;
     }
-  document.getElementById("itCa").innerHTML = "Total Clicks: " + clicks;
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
 }
+        if (sessionStorage.itemCount) {
+    sessionStorage.itemCount = Number(sessionStorage.itemCount) + 1;
+  } else {
+    sessionStorage.itemCount = 1;
+    }
+  document.getElementById("itCa").innerHTML = sessionStorage.itemCount;
+
+        
 function clickCounter2() {
     if (sessionStorage.clickcount) {
-        clicks = clicks + 1;
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 10;
   } else {
     sessionStorage.clickcount = 1;
     }
-  document.getElementById("itCa").innerHTML = "Total Clicks: " + clicks;
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
   
 }
+     if (sessionStorage.itemCount) {
+    sessionStorage.itemCount = Number(sessionStorage.itemCount) + 1;
+  } else {
+    sessionStorage.itemCount = 1;
+    }
+  document.getElementById("itCa").innerHTML = sessionStorage.itemCount;
 
-  
+        
 </script>
     <link rel="stylesheet" href="https://use.typekit.net/yfq0mma.css">
     <link rel="stylesheet" href="stylePages.css">
