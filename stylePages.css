@@ -645,12 +645,12 @@ height:15vh;
 }
 
 .button {
-	border-width:0.5px;
+	border-width:1px;
 	border-color:rgb(50, 168, 82);
-	border-radius:80%;
+	border-radius:95%;
 	background-color:rgb(68, 227, 111);
-	width:10vw;
-	height:3vh;
+	width:12vw;
+	height:6vh;
 }
 
 
