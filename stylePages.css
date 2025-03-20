@@ -587,7 +587,7 @@ top:60vh
     display:inline-block;
     z-index: 1;
     width: 22vw;
-    height: 9vh;
+    height: 7vh;
 } 
 
 .tomaPos{
@@ -597,7 +597,7 @@ top:40vh
 }
 
 .cucuPos{
-left:40vw;
+left:25vw;
 top:70vh
 
 }
