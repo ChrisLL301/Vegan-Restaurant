@@ -11,7 +11,7 @@ function clickCounter1() {
     sessionStorage.clickcount = 15;
     }
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
-  document.getElementById("order").innerHTML = sessionStorage.getItem("Item1");
+  document.getElementById("order").innerHTML = document.getElementById("order").innerHTML + sessionStorage.getItem("Item1");
 
         if (sessionStorage.itemCount) {
     sessionStorage.itemCount = Number(sessionStorage.itemCount) + 1;
