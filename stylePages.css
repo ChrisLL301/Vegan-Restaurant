@@ -647,20 +647,20 @@ height:24vh;
 @media (max-width:800px){
 
 .cokePos {
-left:5vw;
-top:10vh;
-width:7vw;
+left:7vw;
+top:12vh;
+width:6vw;
 height:7.5vh;
 }
 .waterPos {
-left:55vw;
-top:10vh;
-width:10vw;
+left:70vw;
+top:12vh;
+width:9vw;
 height:7.5vh;
 }
 .juicePos {
-left:11vw;
-top:28vh;
+left:14vw;
+top:31vh;
 width:20vw;
 height:7.5vh;
 }
