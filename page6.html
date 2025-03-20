@@ -28,10 +28,12 @@
         
 
         <script>
-            document.getElementById("demo").innerHTML = 0;
 function clickCounter() {
+    if (sessionStorage.clickcount == 0) {
+        document.getElementById("demo").innerHTML = "No Items Yet";
+    }
   document.getElementById("demo").innerHTML = sessionStorage.clickcount + ".00 $";
-} 
+}
     </script>
 
     <!--
