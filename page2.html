@@ -11,7 +11,7 @@ function clickCounter1() {
     sessionStorage.clickcount = 15;
     }
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
-    document.getElementById("order").innerHTML = sessionStorage.getItem("Item1");
+  document.getElementById("order").innerHTML = sessionStorage.getItem("Item1");
 
         if (sessionStorage.itemCount) {
     sessionStorage.itemCount = Number(sessionStorage.itemCount) + 1;
@@ -220,6 +220,8 @@ function clickCounter12() {
     
     <br><br>
 <p id="demo" style="opacity:0;">Check</p>
+<p id="order"></p>
+    
     <br><br><br><br><br>
     <div class="blockT4"></div>
     <div class="ultBlock center">
