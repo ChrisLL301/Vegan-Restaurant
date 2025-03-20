@@ -24,11 +24,13 @@
     <div style = "margin-left:20%;margin-right:20%" class="montFont2">
         <p><button class="button" onclick="clickCounter()" type="button">Click here to reveal price!</button></p>
         <p>Your total is: <p id="demo"></p> </p>
+        <p id="order"></p>
     <br></div></div>
 
         <script>
 function clickCounter() {
   document.getElementById("demo").innerHTML = sessionStorage.clickcount;
+  document.getElementById("order").innerHTML = sessionStorage.getItem("Item1")
 } 
     </script>
 
