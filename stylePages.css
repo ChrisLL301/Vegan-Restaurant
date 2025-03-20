@@ -53,7 +53,7 @@
         height:54vh;
 }
               .imageanim {
-	margin-top:30vh;
+	margin-top:26vh;
 	margin-left:-30vw;
 	margin-right:auto;
         display:block;
@@ -84,18 +84,18 @@
 }
       
       @keyframes dropdown {
-        0% {left:-15vw;opacity:1;}
-	40% {left: 6vw;opacity:1;transfrom: rotate(0deg)}
-	64% {left:22vw;opacity:1;transform: rotate(-22deg);}
-        70% {left:26vw;opacity:1;transform: rotate(17deg);}
-	75% {left:30vw;opacity:1;transform: rotate(-16deg);}
-	80% {left:33vw;opacity:1;transform: rotate(14deg);}
-	83% {left:36vw;opacity:1;transform: rotate(-13deg);}
-	85% {left:38vw;opacity:1;transform: rotate(12deg);}
-	88% {left:41vw;opacity:1;transform: rotate(-11deg);}
-	92% {left:44vw;opacity:1;transform: rotate(10deg);}
-	96% {left:47vw;opacity:1;transform: rotate(-9deg);}
-	100% {left:48vw;opacity:1;}
+        0% {left:-13vw;opacity:1;}
+	40% {left: 8vw;opacity:1;transfrom: rotate(0deg)}
+	64% {left:24vw;opacity:1;transform: rotate(-22deg);}
+        70% {left:28vw;opacity:1;transform: rotate(17deg);}
+	75% {left:32vw;opacity:1;transform: rotate(-16deg);}
+	80% {left:42vw;opacity:1;transform: rotate(14deg);}
+	83% {left:44vw;opacity:1;transform: rotate(-13deg);}
+	85% {left:46vw;opacity:1;transform: rotate(12deg);}
+	88% {left:48vw;opacity:1;transform: rotate(-11deg);}
+	92% {left:50vw;opacity:1;transform: rotate(10deg);}
+	96% {left:51vw;opacity:1;transform: rotate(-9deg);}
+	100% {left:52vw;opacity:1;}
         
       }
         .center {
