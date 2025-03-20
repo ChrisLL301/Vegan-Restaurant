@@ -15,7 +15,7 @@ function clickCounter1() {
   } else {
     sessionStorage.itemCount = 1;
     }
-  document.getElementById("itCa").innerHTML = sessionStorage.itemCount;
+  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + " Items;
 }
         
 function clickCounter2() {
@@ -31,7 +31,7 @@ function clickCounter2() {
   } else {
     sessionStorage.itemCount = 1;
     }
-  document.getElementById("itCa").innerHTML = sessionStorage.itemCount;
+  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + " Items;
 }
         
 </script>
@@ -49,7 +49,7 @@ function clickCounter2() {
         <li><a class="navig" href="page4.html">Contact Us</a></li>
         <li><a class="navig" href="page5.html">Reference Page</a></li>
         <li><a class="navig" href="page6.html">Checkout</a></li>
-        <li><a id="demo" class="navig"></a></li>
+        <li><a id="itCa" class="navig"></a></li>
         <li style="font-size:2.85vw;text-align:center;color:rgb(203, 226, 168);padding: 3vh;" class="brioFont">Veggie Bowl</li>
     </ul>
     <div class="image-block3"></div>
