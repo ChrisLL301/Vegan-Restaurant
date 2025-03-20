@@ -6,10 +6,12 @@
 function clickCounter1() {
   if (sessionStorage.clickcount) {
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 15;
+    sessionStorage.setItem("Item1","Burrito Meal")
   } else {
     sessionStorage.clickcount = 15;
     }
   document.getElementById("demo").innerHTML = "In Cart: " + sessionStorage.clickcount + " Items";
+    document.getElementById("order").innerHTML = sessionStorage.getItem("Item1")
 
         if (sessionStorage.itemCount) {
     sessionStorage.itemCount = Number(sessionStorage.itemCount) + 1;
