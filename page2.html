@@ -2,6 +2,7 @@
 <html>
 <head>
     <script>
+
 function clickCounter1() {
   if (sessionStorage.clickcount) {
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 5;
@@ -15,7 +16,7 @@ function clickCounter1() {
   } else {
     sessionStorage.itemCount = 1;
     }
-  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + " Items;
+  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + "Items";
 }
         
 function clickCounter2() {
@@ -31,8 +32,9 @@ function clickCounter2() {
   } else {
     sessionStorage.itemCount = 1;
     }
-  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + " Items;
+  document.getElementById("itCa").innerHTML = "In Cart: " + sessionStorage.itemCount + "Items";
 }
+  
         
 </script>
     <link rel="stylesheet" href="https://use.typekit.net/yfq0mma.css">
