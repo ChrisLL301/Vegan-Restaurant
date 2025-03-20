@@ -45,7 +45,7 @@
 	opacity:0;
 	}
 
-.canvabowlimmg {
+.canvabowlimg {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -678,7 +678,7 @@ height:7.5vh;
 
 @media (max-width:800px) {
 	
-.canvabowlimmg {
+.canvabowlimg {
         display: block;
         margin-left: auto;
         margin-right: auto;
