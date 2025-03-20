@@ -647,7 +647,7 @@ height:15vh;
 .button {
 	border-width:1px;
 	border-color:rgb(50, 168, 82);
-	border-radius:95%;
+	border-radius:15%;
 	background-color:rgb(68, 227, 111);
 	width:12vw;
 	height:6vh;
