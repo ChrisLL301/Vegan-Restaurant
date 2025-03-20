@@ -592,13 +592,13 @@ top:60vh
 
 .tomaPos{
 left:40vw;
-top:55vh
+top:65vh
 
 }
 
 .cucuPos{
-left:20vw;
-top:100vh
+left:18vw;
+top:110vh
 
 }
 	
@@ -637,7 +637,7 @@ height:30vh;
 }
 .juicePos {
 left:30vw;
-top:110vh;
+top:107vh;
 width:12vw;
 height:24vh;
 }
@@ -649,20 +649,20 @@ height:24vh;
 .cokePos {
 left:2vw;
 top:5vh;
-width:30vw;
-height:4vh;
+width:20vw;
+height:2vh;
 }
 .waterPos {
 left:20vw;
 top:5vh;
-width:30vw;
-height:4vh;
+width:20vw;
+height:2vh;
 }
 .juicePos {
 left:10vw;
 top:10vh;
-width:35vw;
-height:4vh;
+width:20vw;
+height:2vh;
 }
 
 }
